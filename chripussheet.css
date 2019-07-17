@@ -1,0 +1,127 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal, 800;
+  color: #69696a;
+  background-color: #f9fafc
+  padding: 0 20px;
+}
+
+.navContainer {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 70px;
+}
+
+.navHeader {
+  font-size: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  opacity: 1.0;
+}
+
+.container {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.container li {
+  margin: auto 10px;
+  list-style-type: none;
+}
+
+.circleone {
+  padding: 18px;
+  width: 300px;
+  height: 300px;
+  background: rgba(247, 136, 167, 0.6);
+  border-color: rgba(247, 136, 167, 0.6);
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  opacity: 1.0;
+}
+
+.circletwo {
+  padding: 18px;
+  width: 150px;
+  height: 150px;
+  background: rgba(207, 130, 213, 0.6);
+  border-color: rgba(207, 130, 213, 0.6);
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 85%;  
+  opacity: 1.0;
+}
+
+.circlethree {
+  padding: 18px;
+  width: 180px;
+  height: 180px;
+  background: rgba(247, 193, 162, 0.7);
+  border-color: rgba(247, 193, 162, 0.7);
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 80%;
+  opacity: 1.0;
+}
+
+.description {
+  font-size: 20px;
+  width: 50%;
+  color: #000;
+  position: absolute;
+  top: 20%;
+}
+
+.paragraph {
+  font-size: 15px;
+  color: #69696a;
+  top: 78%;
+  left: 12%;
+  position: absolute;
+}
+
+.line {
+  border-right: 3px solid #69696a;
+  opacity: 0.4;
+  height: 118px;
+  position: absolute;
+  top: 31%;
+  right: 95%;
+}
+
+.contactButton {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: inherit;
+    background: #000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.scrollbutton {
+    font-size: inherit;
+    background: #000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+}
